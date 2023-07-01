@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <title>Prize Winning Wheel</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+
+
 </head>
+
 <body>
+    <!-- Container for the spinning wheel -->
+    <div class="container">
+        <div class="wheel">
+            <!-- Prize amounts with different styles -->
+            <div class="amount" style="--index: 1; --color : #db7093"> <span>20% OFF</span></div>
+            <div class="amount" style="--index: 2; --color : #20b2aa"> <span>5% OFF</span></div>
+            <div class="amount" style="--index: 3; --color : #d63e92"> <span>35% OFF</span></div>
+            <div class="amount" style="--index: 4; --color : #daa520"> <span>16% OFF</span></div>
+            <div class="amount" style="--index: 5; --color : #ff340f"> <span>Try Again</span></div>
+            <div class="amount" style="--index: 6; --color : #ff7f50"> <span>50% OFF</span></div>
+            <div class="amount" style="--index: 7; --color : #3cb371"> <span>30% OFF</span></div>
+            <div class="amount" style="--index: 8; --color : #4169e1"> <span>Try Again</span></div>
+        </div>
+        <!-- Spin button -->
+        <div class="spin-btn inOut "><span>Spin</span></div>
+      
+    </div>
+
     
+
 </body>
+
 </html>
